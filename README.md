@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 29.09.2025
+## Register Number:25013553
+## Name:SUJAL DAS
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -122,38 +122,66 @@ AI confidence scores visible → farmer sees “High/Medium/Low confidence”.
 📊 Architecture (Improved Flow)
 
 [Farmer Inputs]
+
    ├── Soil Data / IoT Sensor
+   
    ├── Crop Image (Camera)
+   
    ├── GPS Location & Weather
+   
    └── Voice/Text Query
-        ↓
+   
+        
 [Data Integration Layer]
+
    ├── Soil API | Market API | Weather API
+   
    └── Farmer DB (PostgreSQL/PostGIS)
-        ↓
+   
+        
 [AI & Hybrid Processing]
+
    ├── CNN (Pest Detection, Edge + Cloud)
+   
    ├── Decision Trees (Soil/Fertilizer)
+   
    ├── LSTM (Yield & Price Prediction)
+   
    └── Human-in-Loop (Agronomist review)
-        ↓
+   
+        
 [Advisory Generation]
+
    ├── Pest/Disease Treatment
+   
    ├── Fertilizer Dosage
+   
    ├── Crop Selection
+   
    ├── Market Alert
+   
    └── Voice/TTS Guidance
-        ↓
+   
+        
 [Delivery Layer]
+
    ├── Mobile App (Flutter + Offline Cache)
+   
    ├── IVR/Chatbot (Voice-first)
+   
    ├── SMS Alerts
+   
    └── Extension Officer Dashboard
-        ↓
+   
+        
 [Impact Tracking]
+
    ├── Yield Improvement (per farmer)
+   
    ├── Input Cost Reduction
+   
    ├── Soil Health Index
+   
    └── Govt Dashboard (Sustainability KPIs)
 
 
